@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>North Star Bakery Home</title>
+</head>
+<body>
+    <header>
+        <img src="bakery-logo.png" alt="North Star Bakery Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>North Star Bakery</h1>
+        <section>
+            <h2>Welcome to Our Neighborhood Bakery</h2>
+            <p>Welcome to North Star Bakery, your local neighborhood bakery where everything is made by hand with care. We serve warm breads, fresh pastries, and custom cakes daily to our local community, families, and commuters.</p>
+        </section>
+        <section>
+            <h2>What We Are Known For</h2>
+            <p>We are famous for our artisanal sourdough breads, handmade butter croissants, and beautiful custom cakes for special events. Every item is baked fresh each morning using organic stone ground flour and traditional slow fermentation methods.</p>
+        </section>
+        <section>
+            <h2>Featured Item of the Week</h2>
+            <p>Our featured item this week is our crusty Rosemary Garlic Loaf. Enjoy its crispy crust and soft, aromatic interior.</p>
+            <picture>
+                <source srcset="bakery-feature-large.jpg" media="(min-width: 800px)">
+                <img src="bakery-feature-small.jpg" alt="A golden brown rosemary garlic loaf on a wooden cutting board">
+            </picture>
+        </section>
+        <section>
+            <h2>Audio Greeting from Our Head Baker</h2>
+            <p>Listen to a warm welcome from our team and hear about today's fresh bakes.</p>
+            <audio controls>
+                <source src="bakery-welcome.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <section>
+            <h2>Hours and Location</h2>
+            <p>Located at 123 Main Street in the heart of the community. We are open Tuesday through Sunday from 6:00 AM to 2:00 PM to serve commuters and families.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
 
