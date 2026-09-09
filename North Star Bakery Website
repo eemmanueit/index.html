@@ -50,6 +50,9 @@
     <footer>
         <p>&copy; 2026 North Star Bakery. All rights reserved.</p>
     </footer>
+
+    <!-- Link external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
 
